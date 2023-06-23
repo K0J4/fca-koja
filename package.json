@@ -1,0 +1,160 @@
+{
+  "_from": "koja_ali",
+  "_id": "koja_ali@20.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-gWxQtIqdn23nEyXxmFD/ghp9HXwhroiq9sJ3gJYkQDmTsjzPctIWh6/WdVj7BzVoJgJJsa05UQeUdh5B6+H9MA==",
+  "_location": "/koja_ali",
+  "_phantomChildren": {
+    "agent-base": "6.0.2",
+    "are-we-there-yet": "4.0.0",
+    "async-limiter": "1.0.1",
+    "asynckit": "0.4.0",
+    "aws-sign2": "0.7.0",
+    "aws4": "1.11.0",
+    "caseless": "0.12.0",
+    "cheerio-select": "2.1.0",
+    "combined-stream": "1.0.8",
+    "console-control-strings": "1.1.0",
+    "core-util-is": "1.0.2",
+    "debug": "4.3.2",
+    "end-of-stream": "1.4.4",
+    "extend": "3.0.2",
+    "forever-agent": "0.6.1",
+    "gauge": "5.0.0",
+    "har-validator": "5.1.5",
+    "http-signature": "1.2.0",
+    "is-typedarray": "1.0.0",
+    "isarray": "1.0.0",
+    "isstream": "0.1.2",
+    "json-stringify-safe": "5.0.1",
+    "jssha": "3.2.0",
+    "mime-types": "2.1.35",
+    "oauth-sign": "0.9.0",
+    "parse5": "7.0.0",
+    "parse5-htmlparser2-tree-adapter": "7.0.0",
+    "performance-now": "2.1.0",
+    "process": "0.11.10",
+    "process-nextick-args": "2.0.1",
+    "proxy-from-env": "1.1.0",
+    "qs": "6.5.3",
+    "safe-buffer": "5.2.1",
+    "set-blocking": "2.0.0",
+    "stream-shift": "1.0.1",
+    "tough-cookie": "2.5.0",
+    "tunnel-agent": "0.6.0",
+    "ultron": "1.1.1",
+    "util-deprecate": "1.0.2",
+    "uuid": "3.4.0",
+    "xtend": "4.0.2"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "koja_ali",
+    "name": "koja_ali",
+    "escapedName": "koja_ali",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/koja_ali/-/koja_ali-20.0.7.tgz",
+  "_shasum": "7f91ca32793b93c5b351341c4e09a96c385cfeb5",
+  "_spec": "koja_ali",
+  "_where": "/home/runner/aap-bot",
+  "author": {
+    "name": "Koja ALi"
+  },
+  "bugs": {
+    "url": "https://github.com/K0J4/fca-kojaissues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "aes-js": "latest",
+    "aliya-anup-database": "latest",
+    "aliya-remake": "latest",
+    "assert": "latest",
+    "axios": "^1.1.3",
+    "bluebird": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "crypto": "latest",
+    "crypto-js": "latest",
+    "express": "latest",
+    "figlet": "^1.5.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.1.0",
+    "got": "^11.8.3",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "lodash": "",
+    "mqtt": "latest",
+    "node-superfetch": "",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "pm2": "latest",
+    "pretty-ms": "7.0.1",
+    "readline": "latest",
+    "request": "latest",
+    "totp-generator": "latest",
+    "uuid-apikey": "latest",
+    "websocket-stream": "latest"
+  },
+  "deprecated": false,
+  "description": "Facebook Chat Api For Messenger Bot Made by Koja",
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/K0J4/fca-koja#readme",
+  "keywords": [
+    "Neha"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "koja_ali",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/K0J4/fca-koja.git"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  },
+  "version": "20.0.7"
+}
